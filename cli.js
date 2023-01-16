@@ -5,5 +5,5 @@ const { mdLinks } = require('./index.js');
 
 mdLinks('/noexisto/').then(() => {})
   .catch((error) => {
-    console.log(error)
+    console.log(error);
   });
