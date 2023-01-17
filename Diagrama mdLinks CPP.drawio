@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-        <mxGraphModel dx="2060" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1817" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -37,16 +37,6 @@
                 </mxCell>
                 <mxCell id="60e70716793133e9-7" value="¿La ruta es &lt;br&gt;absoluta?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
                     <mxGeometry x="390" y="220" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="60e70716793133e9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="60e70716793133e9-9" target="60e70716793133e9-30" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="250" y="410" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="250" y="785"/>
-                            <mxPoint x="140" y="785"/>
-                            <mxPoint x="140" y="1125"/>
-                        </Array>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="60e70716793133e9-9" value="Mensaje de ERROR" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
                     <mxGeometry x="190" y="620" width="120" height="40" as="geometry"/>
