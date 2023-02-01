@@ -1,13 +1,6 @@
-const { mdLinks } = require('../index.js');
-
+const { mdLinks } = require('../index');
+// primer test
 describe('mdLinks', () => {
-  // it('should...', () => {
-  //   console.log('FIX ME!');
-  // });
-
-  // it('Deberia devolver una promesa', () => {
-  //   expect(mdLinks()).toBe(typeof Promise);
-  // });
   it('Debe ser una función', () => {
     expect(typeof mdLinks).toBe('function');
   });
@@ -20,8 +13,14 @@ describe('mdLinks', () => {
       expect(route).resolves(path);
     }).catch(() => {});
   });
-
   it('debe rechazar la promesa porque el path no existe', () => mdLinks('/este/path/noexiste.md').catch((error) => {
     expect(error).toBe('La ruta no existe');
   }));
+  // it('should...', () => {
+  //   console.log('FIX ME!');
+  // });
+
+  // it('Deberia devolver una promesa', () => {
+  //   expect(mdLinks()).toBe(typeof Promise);
+  // });
 });
